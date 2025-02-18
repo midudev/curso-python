@@ -7,6 +7,9 @@ goal = 8
 find_first_sum(nums, goal)  # [2, 3]
 """
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # def find_first_sum(nums, goal):
 #   # early return, una validación rápida
 #   if len(nums) == 0: return None

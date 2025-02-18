@@ -3,6 +3,9 @@
 # Transformar un tipo de un valor a otro
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("Conversión de tipos")
 
 # Convertir una cadena que contiene un número a un entero y sumarlo con otro entero

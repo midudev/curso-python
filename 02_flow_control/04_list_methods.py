@@ -3,8 +3,8 @@
 # Los métodos más importantes para trabajar con listas
 ###
 
-import os
-os.system("clear")
+from os import system
+if system("clear") != 0: system("cls")
 
 lista1 = ['a', 'b', 'c', 'd']
 

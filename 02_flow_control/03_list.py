@@ -4,8 +4,8 @@
 # Pueden contener elementos de diferentes tipos.
 ###
 
-import os
-os.system("clear")
+from os import system
+if system("clear") != 0: system("cls")
 
 # Creación de listas
 print("\nCrear listas")

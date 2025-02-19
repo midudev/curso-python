@@ -40,7 +40,7 @@ nombre = "ok"
 
 miNombreDeVariable = "no-recomendado" # camelCase
 MiNombreDeVariable = "no-recomendado" # PascalCase
-minombredevariable = "no-recomendado" # todojunto
+minombredevariable = "no-recomendado" # lowercase
 
 mi_nombre_de_variable_123 = "ok"
 

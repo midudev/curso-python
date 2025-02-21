@@ -3,6 +3,9 @@
 # La función input() permite obtener datos del usuario a través de la consola.
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # Para obtener datos del usuario se usa la función input()
 # La función input() recibe un mensaje que se muestra al usuario
 # y devuelve el valor introducido por el usuario

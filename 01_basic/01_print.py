@@ -5,6 +5,16 @@
 # TODA TU VIDA. Desde hoy hasta el fin de los tiempos
 ###
 
+# Podemos importar módulos de Python para usarlos en nuestros programas.
+# En este caso, importamos el módulo "os" que nos da acceso a funciones
+# relacionadas con el sistema operativo
+from os import system
+
+# system() nos permite ejecutar un comando en la terminal.
+# En este caso, lo hacemos para limpiar la pantalla tanto
+# en MacOS/Linux usando "clear" como en Windows con "cls"
+if system("clear") != 0: system("cls")
+
 # Este es un ejemplo básico de cómo imprimir un texto en consola
 print("¡Hola, Twitch!")
 

@@ -3,6 +3,9 @@
 # Permiten ejecutar un bloque de código repetidamente mientras ITERA un iterable o una lista
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("\nBucle for:")
 
 # Iterar una lista

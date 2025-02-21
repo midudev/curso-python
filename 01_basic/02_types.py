@@ -4,6 +4,9 @@
 # int, float, complex, str, bool, NoneType, list, tuple, dict, range, set...
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 """
 El comando `type()` devuelve el tipo de un objeto en Python
 """

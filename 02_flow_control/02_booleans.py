@@ -4,6 +4,9 @@
 # Fundamentales para el control de flujo y la lógica en programación.
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # Los booleanos representan valores de verdad: True o False.
 print("\nValores booleanos básicos:")
 print(True)

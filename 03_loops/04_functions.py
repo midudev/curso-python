@@ -3,6 +3,9 @@
 # Bloques de código reutilizables y parametrizables para hacer tareas especificas
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # """ Definición de una función
 
 # def nombre_de_la_funcion(parametro1, parametro2, ...):

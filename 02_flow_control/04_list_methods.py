@@ -3,6 +3,9 @@
 # Los métodos más importantes para trabajar con listas
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # Creamos una lista con valores
 lista1 = ['a', 'b', 'c', 'd']
 

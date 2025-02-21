@@ -3,6 +3,9 @@
 # Permiten ejecutar un bloque de código repetidamente mientras se cumpla una condición
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("\n Bucle while:")
 
 # Bucle con una simple condición

@@ -68,7 +68,8 @@ Mira los cursos y participa en vivo en
 |**2. Condicionales y listas + ejercicios**  | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/02_flow_control)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2360535344) |
 |**3. bucles while, for y funciones** | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/03_loops)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2366925887) |
 |**4. Lógica de Programación + Diccionarios** | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/04_logic)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2373204722) |
-|**5. Próximamente** (Miércoles 19 de febrero)  |  | |
+|**5. Expresiones Regulares** | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/05_regex)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2385556729) |
+|**5. Próximamente** (Miércoles 05 de Marzo)  |  | |
 
 > [!NOTE]
 > El curso está actualmente en emisión. Nuevas clases todos los miércoles a las 18:00h (hora española).
@@ -193,4 +194,3 @@ Este curso usa la licencia [CC-BY-NC-ND](https://github.com/midudev/curso-python
 ## 👨‍💻 Autor
 
 [@midudev](https://www.github.com/midudev)
-

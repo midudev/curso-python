@@ -40,7 +40,7 @@ nombre = "ok"
 
 miNombreDeVariable = "no-recomendado" # camelCase
 MiNombreDeVariable = "no-recomendado" # PascalCase
-minombredevariable = "no-recomendado" # todojunto
+minombredevariable = "no-recomendado" # lowercase
 
 mi_nombre_de_variable_123 = "ok"
 
@@ -67,4 +67,3 @@ print(is_user_logged_in)
 
 name: str = "midudev" # Indica que la variable es una cadena de texto
 print(name)
-

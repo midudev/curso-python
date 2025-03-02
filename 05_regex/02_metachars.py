@@ -1,3 +1,6 @@
+import os
+os.system('clear')
+
 ###
 # 02 - Meta caracteres
 # Los metacaracteres son simbolos especiales con significados especificos en las expresiones regulares
@@ -67,7 +70,7 @@ pattern = r"\w"
 found = re.findall(pattern, text)
 print(found)
 
-# \s: Coincide con cualqueir espacio en blanco (espacio, tabulación, salto de línea)
+# \s: Coincide con cualquier espacio en blanco (espacio, titulación, salto de línea)
 text = "Hola mundo\n¿Cómo estás?\t"
 pattern = r"\s"
 matches = re.findall(pattern, text)
@@ -101,7 +104,7 @@ else: print("La cadena no es válida")
 
 # EJERCICIO
 # Valida que un correo sea de gmail
-text = "miduga@hotmail.com"
+text = "miduga@gmail.com"
 pattern = r"@gmail.com$"
 valid = re.search(pattern, text)
 
@@ -109,8 +112,11 @@ if valid: print("El correo es gmail válido")
 else: print("El correo no es válido")
 
 # EJERCICIO:
-# Tenemos una lista de archivos, necesitamos saber los nombres de los ficheros con extension .txt
+# Tenemos una lista de archivos, necesitamos saber los nombres de los ficheros con extension .txt
 files = "file1.txt file2.pdf midu-of.webp secret.txt"
+pattern = r"(\w+)\.txt"
+matches = re.findall(pattern, files)
+print(matches)  # ['file1', 'secret']
 
 # \b: Coincide con el principio o final de una palabra
 text = "casa casada cosa cosas casado casa"

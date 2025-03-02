@@ -1,3 +1,6 @@
+import os
+os.system('clear')
+
 """
 Tienes dos listas de números, lista_a y lista_b, ambas de la misma longitud. 
 
@@ -43,6 +46,7 @@ resultado = battle(lista_a, lista_b)  # -> "x"
 def battle(lista_a, lista_b):
     puntos_a = sum(lista_a)
     puntos_b = sum(lista_b)
+    
     return f"{puntos_a - puntos_b}a" if puntos_a > puntos_b else f"{puntos_b - puntos_a}b" if puntos_b > puntos_a else "x"
 
 

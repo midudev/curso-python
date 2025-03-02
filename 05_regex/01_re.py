@@ -2,8 +2,11 @@
 # 01 - Expresiones regulares
 # 
 
-""" Las expresiones regulares son una secuencia de caracteres que forman un patrón de búsqueda.
-    Se utilizan para la búsqueda de cadenas de texto, validación de datos, etc. """
+""" 
+Las expresiones regulares son una secuencia de caracteres que forman un patrón de búsqueda.
+
+Se utilizan para la búsqueda de cadenas de texto, validación de datos, etc. 
+"""
 
 
 """ ¿Por qué aprender Regex?
@@ -77,6 +80,16 @@ for match in matches:
 # EJERCICIO 02
 # Encuentra todas las ocurrencias de la palabra "midu" en el siguiente texto e indica en que posición empieza y termina cada coincidencia y cuantas veces se encontró.
 text = "Este es el curso de Python de midudev. ¡Suscríbete a midudev si te gusta este contenido! midu"
+pattern = 'midu'
+matches = re.finditer(pattern, text)
+
+total_matches = 0
+for match in matches:
+  total_matches += 1
+  print(f'{match.group()} => {match.start()}:{match.end()}')
+
+print(f'Total de coincidencias: {total_matches}')
+
 
 ### Modificadores
 
@@ -85,7 +98,7 @@ text = "Este es el curso de Python de midudev. ¡Suscríbete a midudev si te gus
 # re.IGNORECASE: Ignora las mayúsculas y minúsculas
 
 text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no es tan mala. ¡Viva la Ia!"
-pattern = "IA"
+pattern = "ia"
 found = re.findall(pattern, text, re.IGNORECASE)
 
 if found: print(found)
@@ -93,6 +106,10 @@ if found: print(found)
 # EJERCICIO 03
 # Encuentra todas las ocurrencias de la palabra "python" en el siguiente texto, sin distinguir entre mayúsculas y minúsculas.
 text = "Este es el curso de Python de midudev. ¡Suscríbete a python si te gusta este contenido! PYTHON"
+pattern = 'python'
+matches = re.findall(pattern, text, re.I)
+
+print(matches)
 
 ### Reemplazar el texto
 

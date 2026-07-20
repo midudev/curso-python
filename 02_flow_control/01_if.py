@@ -60,7 +60,7 @@ tiene_carnet = True
 if edad >= 18 and tiene_carnet:
   print("Puedes conducir 🚗")
 else:
-  print("POLICIA 🚔!!!1!!!")
+  print("POLICIA 🚔!!!!!!!")
 
 # En un pueblo de Isla Margarita son más laxos y
 # te dejan conducir si eres mayor de edad O tienes carnet

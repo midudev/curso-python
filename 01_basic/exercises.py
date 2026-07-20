@@ -3,8 +3,17 @@
 # Ejercicios para practicar los conceptos aprendidos en las lecciones.
 ###
 
+# Temario de ejercicios:
+# 1. Imprimir mensajes
+# 2. Muestra los tipos de datos de las siguientes variables
+# 3. Casting de tipos
+# 4. Variables
+# 5. Números
+
 from os import system
 if system("clear") != 0: system("cls")
+
+# Ejercicio 1: Imprimir mensajes
 
 print("\nEjercicio 1: Imprimir mensajes")
 print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separadas.")
@@ -12,6 +21,8 @@ print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separada
 ### Completa aquí
 
 print("--------------")
+
+# Ejercicio 2: Mostrar los tipos de datos de las variables
 
 print("\nEjercicio 2: Muestra los tipos de datos de las siguientes variables:")
 print("Usa el comando 'type()' para determinar el tipo de datos de cada variable.")
@@ -23,6 +34,8 @@ e = None
 
 ### Completa aquí
 
+# Ejercicio 3: Casting de tipos
+
 print("--------------")
 
 print("\nEjercicio 3: Casting de tipos")
@@ -33,6 +46,8 @@ print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 print("--------------")
 
+# Ejercicio 4: Variables
+
 print("\nEjercicio 4: Variables")
 print("Crea variables para tu nombre, edad y altura.")
 print("Usa f-strings para imprimir una presentación.")
@@ -40,6 +55,8 @@ print("Usa f-strings para imprimir una presentación.")
 # "Hola! Me llamo midudev y tengo 39 años, mido 1.70 metros"
 
 ### Completa aquí
+
+# Ejercicio 5: Números
 
 print("--------------")
 

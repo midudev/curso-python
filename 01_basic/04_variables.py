@@ -12,7 +12,7 @@ my_name = "midudev"
 print(my_name)  # Imprime el valor de la variable my_name
 
 age = 32
-print(age)  # Imprime el valor de la variable age)
+print(age)  # Imprime el valor de la variable age
 
 # Reasignar un nuevo valor a una variable existente
 age = 39

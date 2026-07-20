@@ -70,8 +70,9 @@ En esta sección, encontrarás **preguntas y respuestas de las primeras clases**
 6. **Pregunta:** No entendí cómo se abre la consola y se muestra el mensaje.  
    **Respuesta:** Consulta el siguiente [video](https://www.youtube.com/watch?v=xuuVY52sjdo). Si no funciona, puedes buscar más información en videos de YouTube o utilizar ChatGPT.
 
-7. **Pregunta:** Si tenemos Visual Studio, ¿podemos usar Python igual o es necesario usar VS Code?  
-   **Respuesta:** Si te refieres a Visual Studio (el IDE de Microsoft), puedes usarlo para programar en Python. Sin embargo, **Visual Studio Code (VS Code)** es más ligero y está **recomendado para Python**. De todas formas, te dejamos un [enlace](https://youtu.be/oUwz2mc4BFA?si=ArsENSojSvSzf5ty) para que puedas usar Python en ese IDE.
+7. **Pregunta:** Si tenemos Visual Studio, ¿podemos usar Python igual o es necesario usar VS Code?
+**Respuesta:** Sí, puedes usar Visual Studio (el IDE de Microsoft) sin problema para programar en Python. Sin embargo, **Visual Studio Code (VS Code)** es la opción más recomendada por la comunidad, ya que es más ligero y ofrece una mejor integración con Python. 
+Puedes descargar VS Code desde su página oficial: **[aquí](https://code.visualstudio.com/download)**. Te dejamos también un **[enlace](https://youtu.be/olwz2mc4BFA?si=ArsEN5ojSvZf5tFy)** a un video tutorial por si necesitas ayuda con la instalación.
 
 8. **Pregunta:** ¿Dónde se ve la configuración de Python? ¿De type checking en VS Code?  
    **Respuesta:** En VS Code, puedes configurar el type checking siguiendo las instrucciones que explico en el siguiente enlace:  [video](https://www.twitch.tv/videos/2354087841?t=1h32m53s). Para acceder a las configuraciones:
@@ -213,7 +214,8 @@ En esta sección, encontrarás **preguntas y respuestas de las primeras clases**
     **Respuesta:** No, debes usar una coma o **f-strings**:
     ```python
     edad = 25
-    print("Mi edad es", edad)  # O usando f-string:
+    print("Mi edad es", edad)
+    # O usando f-string:
     print(f"Mi edad es {edad}")
     ```
 
